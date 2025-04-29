@@ -7,8 +7,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'your-secret-key'
 
 DEBUG = True
+ALLOWED_HOSTS = ['web-production-f0a66.up.railway.app', 'localhost']
 
-ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
